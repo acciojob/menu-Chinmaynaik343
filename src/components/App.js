@@ -1,2 +1,14 @@
-<p>Now I can render any React component on any DOM node I want using ReactDOM.render</p>
 
+import React from "react";
+import Menu from "./Menu";
+import "./styles.css";
+
+function App() {
+  return (
+    <main id="main">
+      <Menu />
+    </main>
+  );
+}
+
+export default App;
