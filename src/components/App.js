@@ -1,7 +1,7 @@
 
 import React from "react";
-import Menu from "./Menu";
-import "./styles.css";
+import Menu from "./Menu.js";
+import "./styles/App.css";
 
 function App() {
   return (
